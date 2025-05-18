@@ -66,10 +66,6 @@ python Air_draw.py
 
 <p>All saved drawings are stored in the <code>gallery/</code> folder. Press <code>G</code> during the app to view your recent creations.</p>
 
-<h2>📸 Preview</h2>
-
-<p><em>Add a screenshot or demo GIF here!</em></p>
-
 <h2>🙌 Contributions</h2>
 
 <p>Feel free to fork and improve the project:</p>
