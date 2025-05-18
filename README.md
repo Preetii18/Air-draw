@@ -1,65 +1,84 @@
-✨ Air Draw – Draw with Your Finger in the Air! 🎨
-Air Draw is a computer vision-based app that lets you draw in the air using only your hand gestures and webcam. Move your index finger to draw, and change colors using different fingers!
+<h1>✨ Air Draw – Draw with Your Finger in the Air! 🎨</h1>
 
-🔍 Features
-🖐️ Real-time hand and finger tracking using MediaPipe
+<p><strong>Air Draw</strong> is a computer vision-based app that lets you draw in the air using only your <strong>hand gestures</strong> and webcam. Move your <strong>index finger</strong> to draw, and change colors using <strong>different fingers</strong>!</p>
 
-🖊️ Draw with your index finger
+<h2>🔍 Features</h2>
 
-🌈 Change colors by lifting different fingers
+<ul>
+  <li>🖐️ Real-time <strong>hand and finger tracking</strong> using MediaPipe</li>
+  <li>🖊️ Draw with your <strong>index finger</strong></li>
+  <li>🌈 Change colors by lifting <strong>different fingers</strong></li>
+  <li>💾 Save your drawings with the <code>S</code> key</li>
+  <li>🖼️ View saved drawings in the <strong>Drawing Gallery</strong> with the <code>G</code> key</li>
+  <li>🧼 Clear canvas with the <code>C</code> key</li>
+</ul>
 
-💾 Save your drawings with the S key
+<h2>🎨 Color Controls</h2>
 
-🖼️ View saved drawings in the Drawing Gallery with the G key
+<table>
+  <thead>
+    <tr>
+      <th>Finger Pattern</th>
+      <th>Action / Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Only Index Finger Up</td><td>Draw with current color</td></tr>
+    <tr><td>Index + Middle Finger Up</td><td>Change to <strong>Blue</strong></td></tr>
+    <tr><td>Index + Ring Finger Up</td><td>Change to <strong>Green</strong></td></tr>
+    <tr><td>Index + Pinky Up</td><td>Change to <strong>Red</strong></td></tr>
+    <tr><td>All Fingers Up</td><td>Change to <strong>Black</strong></td></tr>
+  </tbody>
+</table>
 
-🧼 Clear canvas with the C key
+<h2>🛠️ Tech Stack</h2>
 
-🎨 Color Controls
-Finger Pattern	Action / Color
-Only Index Finger Up	Draw with current color
-Index + Middle Finger Up	Change to Blue
-Index + Ring Finger Up	Change to Green
-Index + Pinky Up	Change to Red
-All Fingers Up	Change to Black
+<ul>
+  <li>Python 🐍</li>
+  <li>OpenCV 🎥</li>
+  <li>MediaPipe 🤖</li>
+  <li>NumPy 📊</li>
+</ul>
 
+<h2>🚀 How to Run</h2>
 
-🛠️ Tech Stack
-Python 🐍
-
-OpenCV 🎥
-
-MediaPipe 🤖
-
-NumPy 📊
-
-🚀 How to Run
-bash
-Copy
-Edit
-git clone https://github.com/Preetii18/Air-draw.git
+<pre><code>git clone https://github.com/Preetii18/Air-draw.git
 cd Air-draw
 pip install -r requirements.txt
 python Air_draw.py
-🎮 Controls
-Key	Action
-S	Save current drawing
-G	Open Drawing Gallery
-C	Clear the canvas
-ESC	Exit the app
+</code></pre>
 
-📁 Gallery
-All saved drawings are stored in the gallery/ folder. Press G during the app to view your recent creations.
+<h2>🎮 Controls</h2>
 
-📸 Preview
+<table>
+  <thead>
+    <tr><th>Key</th><th>Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>S</code></td><td>Save current drawing</td></tr>
+    <tr><td><code>G</code></td><td>Open Drawing Gallery</td></tr>
+    <tr><td><code>C</code></td><td>Clear the canvas</td></tr>
+    <tr><td><code>ESC</code></td><td>Exit the app</td></tr>
+  </tbody>
+</table>
 
-🙌 Contributions
-Feel free to fork and improve:
+<h2>📁 Gallery</h2>
 
-Add more color gestures 🎨
+<p>All saved drawings are stored in the <code>gallery/</code> folder. Press <code>G</code> during the app to view your recent creations.</p>
 
-Add shape tools ✏️
+<h2>📸 Preview</h2>
 
-Add GUI buttons 🖱️
+<p><em>Add a screenshot or demo GIF here!</em></p>
 
-📜 License
-MIT License. Use freely and creatively!
+<h2>🙌 Contributions</h2>
+
+<p>Feel free to fork and improve the project:</p>
+<ul>
+  <li>Add more color gestures 🎨</li>
+  <li>Add shape tools ✏️</li>
+  <li>Add GUI buttons 🖱️</li>
+</ul>
+
+<h2>📜 License</h2>
+
+<p><strong>MIT License</strong> – Use freely and creatively!</p>
